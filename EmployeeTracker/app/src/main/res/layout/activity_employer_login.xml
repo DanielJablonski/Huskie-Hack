@@ -67,6 +67,7 @@
             android:layout_gravity="center"
             android:text="Login with Facebook"
             android:textSize="15sp"
+            android:id="@+id/employerFacebookBtn"
             android:background="@drawable/facebook_button"
             android:textColor="#ffffff" />
 
@@ -75,6 +76,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="15dp"
+            android:id="@+id/employerGoogleBtn"
             android:text="Login with Google"
             android:textSize="15sp"
             android:background="@drawable/google_button"

@@ -1,6 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/google_maps_pin"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Employee Tracker"
+                android:layout_marginEnd="20dp"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textAlignment="viewEnd"/>
+
+        </android.support.v7.widget.Toolbar>
+
+
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000000"></View>
+<LinearLayout
     android:id="@+id/activity_employee_login"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -14,7 +53,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
-        android:text="Manager SignUp/Login"
+        android:text="Employee SignUp/Login"
         android:textSize="25sp"
         android:textStyle="bold"
         android:layout_marginBottom="40dp"
@@ -24,6 +63,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:id="@+id/employeeFacebookBtn"
         android:text="Login with Facebook"
         android:textSize="15sp"
         android:background="@drawable/facebook_button"
@@ -33,9 +73,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:id="@+id/employeeGoogleBtn"
         android:layout_marginTop="15dp"
         android:text="Login with Google"
         android:textSize="15sp"
         android:background="@drawable/google_button"
         android:textColor="#ffffff" />
+</LinearLayout>
 </LinearLayout>

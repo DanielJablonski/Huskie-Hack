@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "702554446159",
+    "firebase_url": "https://computer-science-fair.firebaseio.com",
+    "project_id": "computer-science-fair",
+    "storage_bucket": "computer-science-fair.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702554446159:android:16b4f24d4e4e0a90",
+        "android_client_info": {
+          "package_name": "com.daniel.employeetracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702554446159-e3b0et6od5vo06m3abtmjlmpmf43hv0j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfZK7xa63Be_Wje2G1pVkczYrX4yoheVE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

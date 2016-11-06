@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/google_maps_pin"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Employee Tracker"
+                android:layout_marginEnd="20dp"
+                android:textColor="#000000"
+                android:textSize="25sp"
+                android:textAlignment="viewEnd"/>
+
+        </android.support.v7.widget.Toolbar>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000000"></View>
+
+    <LinearLayout
+        android:id="@+id/activity_employee_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.daniel.employeetracker.EmployeeList">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Employees"
+            tools:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#000000" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Enter an employee's name"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:id="@+id/editText" />
+
+        <Button
+            android:text="+ Add employee"
+            android:layout_width="162dp"
+            android:layout_height="41dp"
+            android:id="@+id/addEmployeeBtn"
+            android:background="@drawable/buttonshape"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffff" />
+
+        <Spinner
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:spinnerMode="dropdown"
+            android:id="@+id/spinner">
+
+
+        </Spinner>
+
+    </LinearLayout>
+</LinearLayout>
